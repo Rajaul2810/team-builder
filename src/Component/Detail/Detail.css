@@ -1,0 +1,30 @@
+.all-detail{
+    background-color: black;
+    color: whitesmoke;
+
+}
+.detail{
+    background-color:blueviolet ;
+    color: whitesmoke;
+    height: 180px;
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-left: 5px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+.info{
+    margin-left:5px ;
+    margin-top: 10px;
+}
+.img-info img{
+  height: 150px;
+  width: 250px;
+  margin-top: 10px;
+}
+.description{
+    margin-left: 20px;
+    margin-top: 20px;
+}
