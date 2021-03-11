@@ -6,7 +6,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import NotMatch from './Component/NotMatch/NotMatch';
 import Detail from './Component/Detail/Detail';
@@ -14,14 +13,15 @@ import Detail from './Component/Detail/Detail';
 function App() {
   return (
     <div>
-      <Header></Header>
+     
          <Router>
            <Switch>
              <Route path="/home">
+             <Header></Header>
                 <Home/>
              </Route>
              <Route exact path="/">
-            
+             <Header></Header>
                <Home/> 
              </Route>
               <Route path="/Detail/:idTeam">

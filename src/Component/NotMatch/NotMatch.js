@@ -2,8 +2,9 @@ import React from 'react';
 import './NotMatch.css';
 const NotMatch = () => {
     return (
-        <div>
-            <h2>404 Not Match!!!</h2>
+        <div className="not-match">
+            <h2>404</h2>
+            <h2> Not Match!!!</h2>
         </div>
     );
 };

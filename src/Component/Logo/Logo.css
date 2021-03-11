@@ -1,0 +1,12 @@
+.banner-pic img{
+    height: 300px;
+    width: 100%;
+
+}
+.logo-pic img{
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+}

@@ -22,3 +22,12 @@ height: 100px;
 width: 200px;
 
 }
+.team{
+    background-color: black;
+}
+@media(max-width:760px){
+    .team-container{
+        text-align: center;
+    }
+
+}

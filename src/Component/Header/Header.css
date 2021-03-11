@@ -1,7 +1,10 @@
 .header{
-    background-image: url(/src/Component/Header/banner.jpeg);
+    background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url(/src/Component/Header/banner.jpeg);
    text-align: center;
    height: 200px;
    width: 100%;
    color: red;
+}
+.header h1{
+    padding-top:50px;
 }
